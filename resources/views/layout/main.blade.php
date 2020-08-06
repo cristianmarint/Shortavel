@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>{{config('app.name')}}</title>
     <meta name="description" content="Quick and aesy url shortener">
-    <link rel="icon" type="image/svg+xml" sizes="40x40" href="{{url('assets/img/crop.svg')}}">
+    <link rel="icon" type="image/svg+xml" sizes="40x40" href="{{url('assets/img/logo.svg')}}">
     <link rel="stylesheet" href="{{url('assets/bootstrap/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
     <link rel="stylesheet" href="{{url('assets/fonts/font-awesome.min.css')}}">
@@ -16,6 +16,7 @@
     <nav class="navbar navbar-light navbar-expand bg-light navigation-clean">
         <div class="container">
         <a class="navbar-brand" href="{{route('index')}}" style="font-style: normal;font-weight: bold;font-size: 30px;">{{config('app.name')}}</a>
+        <img src="{{url('assets/img/logo.svg')}}">
             <button class="navbar-toggler" data-toggle="collapse"></button>
         </div>
     </nav>
