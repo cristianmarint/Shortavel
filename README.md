@@ -1,6 +1,6 @@
 
 # Shortavel
-Shortavel's a Laravel base URL shortener which you can deploy asy and faster on your own. By the way it's Open Source. 
+[Shortavel](http://shortavel.herokuapp.com/)'s a Laravel base URL shortener which you can deploy asy and faster on your own. By the way it's Open Source. 
 ![enter image description here](https://i.imgur.com/eidHamY.png)
 
 ## Installation
